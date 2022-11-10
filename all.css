@@ -1,0 +1,62 @@
+@import url("button.css");
+@import url("list.css");
+@import url("msgbox.css");
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c");
+
+body{
+
+margin:10px;
+font-family: "M PLUS Rounded 1c";
+
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    
+  }
+  a {
+    
+  }
+  img {
+    filter: grayscale(30%);
+  }
+.msgbox{
+    margin: 0 0 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(1,1,1,0.4);
+     background-color: #fff;
+}
+
+/* メッセージボックスタイトルバー */
+.msgboxtop{
+    background:linear-gradient(#fbe988, #c5b36b);
+    color:#333333;
+    padding:8px 10px;
+    font-size: 18px;
+    font-weight:bold;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.msgboxtop:before{
+    content:"\28FF\0020";
+}
+
+/* メッセージボックス本文部分 */
+.msgboxbody{
+    background:white;
+    padding:7px 14px;
+}
+
+/* メッセージボックス下部(閉じるボタンとかあるとこ) */
+.msgboxfoot{
+    background:lightgray;
+    padding:15px 0 18px 0;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    text-align:center;
+    min-height: 25px;
+    
+}
+
+}
