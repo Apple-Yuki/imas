@@ -12,7 +12,7 @@ demo:https://apple-yuki.github.io/imas/
   include css
 ```  
   
-  <link rel="stylesheet" href="all.css">
+  <link rel="stylesheet" href="https://apple-yuki.github.io/imas/all.css">
 
 ```
 
