@@ -33,3 +33,6 @@ demo:https://apple-yuki.github.io/imas/
     </div>
 </div>
 ```
+
+©窪岡俊之 THE IDOLM@STER™& ©Bandai Namco Entertainment Inc.  
+©Bandai Namco Entertainment Inc.
